@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+header
+{
+	position: absolute;
+	width: 100%;
+	background-color: black;
+}
+.container
+{
+	max-width: 100%;
+	height: auto;
+}
+.banner-img1 
+	{
+		border-right: 5px solid #FF0004;
+	}
+.logo 
+{
+	margin: 10px 20px 5px 20px;
+	float: left;
+}
+
+.menu
+{
+	display: flex;
+	
+}
+.menu a
+{
+	font-family:"Dealerplate California";
+	font-size:23px;
+	color:white;
+	text-decoration: none;
+	margin: 0 1.5rem;
+}
+.menu a :hover
+{
+	color:#A5B600;
+}
+.list-menu
+{
+	display: flex;
+	flex-direction: column;
+}
+.list-menu a
+{
+	color: #5C6D90;
+	text-decoration: none;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 450px;
+  background: #f1f1f1;
+}
+
+form.example button
+{
+  float: left;
+  width: 45px;
+  padding: 10px;
+  background: grey;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover 
+{
+  background: #4D4B4B;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.nav-mobile
+{
+	display: none;
+}
+.Close
+{
+	display: none;
+}
+.card-red img
+{
+	width: 100%;
+}
+.card-red1 img
+{
+	width: 100%;
+}
+.card-red
+{
+	transition: all 0.1s linear;
+}
+.card-red:hover
+{
+	transform: scale(1.2); 
+}
+
+
+.card-red1
+{
+	transition: all 0.1s linear;
+}
+.card-red1:hover
+{
+	transform: scale(1.2); 
+}
